@@ -1,8 +1,10 @@
 .container {
     padding: 0 2rem;
+    background-color: white;
 }
 
 .main {
+    background-color: black;
     min-height: 100vh;
     padding: 4rem 0;
     flex: 1;
@@ -31,6 +33,14 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+}
+
+.title {
+    color: white;
+}
+
+.dogs {
+    border-radius: 50%;
 }
 
 .title a {
