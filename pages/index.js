@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className={styles.title}>
 
 
-          Welcome to <a href="https://nextjs.org">Waggin' Rights</a>
+          Welcome to <a href="#scheduling">Waggin' Rights</a>
         </h1>
 
       
@@ -69,7 +69,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="#emz_n_crew"
+          href="#scheduling"
           target="_blank"
           rel="noopener noreferrer"
         >
