@@ -44,7 +44,7 @@
 }
 
 .title a {
-    color: purple;
+    color: white;
     text-decoration: none;
 }
 
@@ -91,6 +91,7 @@
     margin: 1rem;
     padding: 1.5rem;
     text-align: left;
+    background-color: white;
     color: inherit;
     text-decoration: none;
     border: 1px solid #eaeaea;

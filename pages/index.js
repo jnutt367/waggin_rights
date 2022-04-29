@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
       <Image className={styles.dogs} src="/logo.jpg" alt="title" width={300} height={300}  />
-      <Image src="/title.jpg" alt="title" width={600} height={300}  />
+      
         <h1 className={styles.title}>
 
 
@@ -66,7 +66,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-
+      <Image src="/title.jpg" alt="title" width={600} height={300}  />
       <footer className={styles.footer}>
         <a
           href="#scheduling"
