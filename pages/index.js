@@ -59,7 +59,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Packages & Pricing &rarr;</h2>
-            <Image src="/PriceList.png" alt="Price List" width={1000} height={1900}  />
+            <Image src="/specials.jpg" alt="Price List" width={1000} height={1900}  />
             <p>
               Here's a Full Overview of the packages & Pricing!
             </p>
