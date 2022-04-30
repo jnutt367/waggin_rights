@@ -49,24 +49,22 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Overnights &rarr;</h2>
-            <Image src="/overnights.jpg" alt="30 Minutevisit" width={600} height={600}  />
+            <Image src="/overnights.jpg" alt="30 Minutevisit" width={1000} height={1000}  />
             <p>
               Get an Overnight scheduled Today!
             </p>
           </a>
           <a
             href="#"
-            className={styles.card}
+            className={styles.specials}
           >
-            <h2>Packages & Pricing &rarr;</h2>
-            <Image src="/specials.jpg" alt="Price List" width={600} height={600}  />
-            <p>
-              Here's a Full Overview of the packages & Pricing!
-            </p>
+            <h2>Specials Pricing &rarr;</h2>
+            <Image src="/specials.jpg" alt="Price List" width={1200} height={600}  />
+            
           </a>
         </div>
       </main>
-      <Image src="/title.jpg" alt="title" width={600} height={300}  />
+      <Image src="/title.jpg" alt="title" width={500} height={300}  />
       <footer className={styles.footer}>
         <a
           href="#scheduling"
