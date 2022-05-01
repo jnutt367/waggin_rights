@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 1400px;
 }
 
 .card {
@@ -105,8 +105,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: purple;
-    border-color: purple;
+    color: violet;
+    border-color: violet;
 }
 
 .card h2 {
