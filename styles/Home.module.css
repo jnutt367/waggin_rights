@@ -105,7 +105,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: violet;
+    color: aqua;
     border-color: aqua;
 }
 
