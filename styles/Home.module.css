@@ -106,7 +106,7 @@
 .card:focus,
 .card:active {
     color: violet;
-    border-color: violet;
+    border-color: aqua;
 }
 
 .card h2 {

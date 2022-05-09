@@ -17,26 +17,26 @@ export default function Home() {
         <h1 className={styles.title}>
 
 
-          <a href="#scheduling">Waggin' Rights</a>
+          <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7">Waggin' Rights</a>
         </h1>
 
       
 
         <div className={styles.grid}>
-          <a href="#scheduling" className={styles.card}>
+          <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7" className={styles.card}>
             <h2>15 Minute Visit &rarr;</h2>
             <Image src="/fifteen_minute.jpg" alt="15 minute visit" width={600} height={600}  />
             <p>Get a 15 minute scheduled Today!</p>
           </a>
 
-          <a href="#scheduling" className={styles.card}>
+          <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7" className={styles.card}>
             <h2>30 Minute Visit &rarr;</h2>
             <Image src="/thirty_minute.jpg" alt="30 Minutevisit" width={600} height={600}  />
             <p>Get a 30 minute scheduled Today!</p>
           </a>
 
           <a
-            href="#"
+            href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.card}
           >
             <h2>60 Minute Visit &rarr;</h2>
@@ -45,7 +45,7 @@ export default function Home() {
           </a>
 
           <a
-            href="#"
+            href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.card}
           >
             <h2>Overnights &rarr;</h2>
@@ -55,7 +55,7 @@ export default function Home() {
             </p>
           </a>
           <a
-            href="#"
+            href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.specials}
           >
             <h2>Specials Pricing &rarr;</h2>
