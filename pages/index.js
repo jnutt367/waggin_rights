@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <Image className={styles.dogs} src="/logo.jpg" alt="title" width={300} height={300}  />
+      <Image className={styles.dogs} src="/logo.jpg" alt="title" width={100} height={100} />
       
         <h1 className={styles.title}>
 
