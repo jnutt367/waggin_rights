@@ -108,9 +108,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-    color: violet;
-    border-color: aqua;
-    background-color: slategray;
+    color: rgb(165, 57, 160);
+    border-color: rgb(165, 57, 160);
+    background-color: rgb(197, 219, 238);
 }
 
 .card h2 {
