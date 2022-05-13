@@ -110,7 +110,7 @@
 .card:active {
     color: violet;
     border-color: aqua;
-    background-color: black;
+    background-color: slategray;
 }
 
 .card h2 {
