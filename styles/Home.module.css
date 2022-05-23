@@ -147,6 +147,10 @@
     background-color: rgb(122, 86, 121);
 }
 
+.trademark {
+    width: 1200px;
+}
+
 @media (max-width: 600px) {
     .grid {
         width: 100%;

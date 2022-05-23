@@ -19,9 +19,9 @@ export default function Home() {
 
           <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7">Waggin' Rights</a>
         </h1>
-
-      
-
+    <a href="#other_animals">
+        <p className={styles.code}>NOT JUST FOR CATS & DOGS!</p>
+    </a>
         <div className={styles.grid}>
           <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7" className={styles.card}>
             <h2>15 Minute Visit &darr;</h2>
@@ -54,12 +54,12 @@ export default function Home() {
               Get an Overnight scheduled Today!
             </p>
           </a>
-          <a
+          <a id="other_animals"
             href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.card}
           >
             <h2>Other Animals &darr;</h2>
-            <Image className={styles.images} src="/" alt="A card matching the other cards will go here... are you able to make one with the same tools in order to match the style exactly or do I need to make all new ones?   If so, No prob." width={1000} height={1000}  />
+            <Image className={styles.images} src="/specials.jpg" alt="A card matching the other cards will go here... are you able to make one with the same tools in order to match the style exactly or do I need to make all new ones?   If so, No prob." width={600} height={600}  />
             <p>
               Inquire about services for other types of animals too!
             </p>
@@ -69,26 +69,24 @@ export default function Home() {
             className={styles.specials}
           >
             <h2>Specials Pricing &darr;</h2>
-            <Image src="/specials.jpg" alt="Price List" width={1200} height={600}  />
+            <Image src="/specials.jpg" alt="Price List" width={1200} height={900}  />
             
           </a>
         </div>
       </main>
-      <Image src="/title.jpg" alt="title" width={500} height={300}  />
+      <Image className={styles.trademark} src="/title.jpg" alt="title" layout="intrinsic" height="900px" width="900px" />
       <footer className={styles.footer}>
         <a
           href="#scheduling"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Lovingly Established by{' '}
-          <span className={styles.logo}>
-            <Image className={styles.emz} src="/emily.jpeg" alt="Emily and Daughter" width={50} height={50} />
-          </span>
+          Lovingly Established by{' '} Emily Griffith
+          
         </a>
 
         
-       <p className={styles.emz_para}> Emily Griffith</p>
+       
       </footer>
     </div>
   )
