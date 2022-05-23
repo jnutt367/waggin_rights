@@ -24,14 +24,14 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7" className={styles.card}>
-            <h2>15 Minute Visit &rarr;</h2>
-            <Image src="/fifteen_minute.jpg" alt="15 minute visit" width={600} height={600}  />
+            <h2>15 Minute Visit &darr;</h2>
+            <Image className={styles.images} src="/fifteen_minute.jpg" alt="15 minute visit" width={600} height={600}  />
             <p>Get a 15 minute scheduled Today!</p>
           </a>
 
           <a href="https://petparents.petsitterdashboard.com/login?b=7f265bd7" className={styles.card}>
-            <h2>30 Minute Visit &rarr;</h2>
-            <Image src="/thirty_minute.jpg" alt="30 Minutevisit" width={600} height={600}  />
+            <h2>30 Minute Visit &darr;</h2>
+            <Image className={styles.images} src="/thirty_minute.jpg" alt="30 Minutevisit" width={600} height={600}  />
             <p>Get a 30 minute scheduled Today!</p>
           </a>
 
@@ -39,8 +39,8 @@ export default function Home() {
             href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.card}
           >
-            <h2>60 Minute Visit &rarr;</h2>
-            <Image src="/sixty_minute.jpg" alt="60 Minutevisit" width={600} height={600}  />
+            <h2>60 Minute Visit &darr;</h2>
+            <Image className={styles.images} src="/sixty_minute.jpg" alt="60 Minutevisit" width={600} height={600}  />
             <p>Get a 60 minute scheduled Today!</p>
           </a>
 
@@ -48,17 +48,27 @@ export default function Home() {
             href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.card}
           >
-            <h2>Overnights &rarr;</h2>
-            <Image src="/overnights.jpg" alt="30 Minutevisit" width={1000} height={1000}  />
+            <h2>Overnights &darr;</h2>
+            <Image className={styles.images} src="/overnights.jpg" alt="30 Minutevisit" width={1000} height={1000}  />
             <p>
               Get an Overnight scheduled Today!
             </p>
           </a>
           <a
             href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
+            className={styles.card}
+          >
+            <h2>Other Animals &darr;</h2>
+            <Image className={styles.images} src="/" alt="A card matching the other cards will go here... are you able to make one with the same tools in order to match the style exactly or do I need to make all new ones?   If so, No prob." width={1000} height={1000}  />
+            <p>
+              Inquire about services for other types of animals too!
+            </p>
+          </a>
+          <a
+            href="https://petparents.petsitterdashboard.com/login?b=7f265bd7"
             className={styles.specials}
           >
-            <h2>Specials Pricing &rarr;</h2>
+            <h2>Specials Pricing &darr;</h2>
             <Image src="/specials.jpg" alt="Price List" width={1200} height={600}  />
             
           </a>
@@ -76,6 +86,8 @@ export default function Home() {
             <Image className={styles.emz} src="/emily.jpeg" alt="Emily and Daughter" width={50} height={50} />
           </span>
         </a>
+
+        
        <p className={styles.emz_para}> Emily Griffith</p>
       </footer>
     </div>
